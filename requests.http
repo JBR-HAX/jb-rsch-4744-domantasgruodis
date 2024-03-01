@@ -1,5 +1,5 @@
 ###
-POST http://localhost:8080/moves
+POST http://localhost:8080/robot/moves
 Content-Type: application/json
 
 [
@@ -10,7 +10,7 @@ Content-Type: application/json
 ]
 
 ###
-POST http://localhost:8080/locations
+POST http://localhost:8080/robot/coordinates
 Content-Type: application/json
 
 [
